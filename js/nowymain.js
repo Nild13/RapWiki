@@ -1,6 +1,6 @@
 window.onload = function() {
     // let wynik = Math.floor(Math.random() * (8 - 1)) + 1;
-    let wynik = 1;
+    let wynik = 2;
     console.log('Załaduj tapete i style nr: ' + wynik)
     let tlo = `'./zdjecia/wallpapers/screen${wynik}.JPG'`
     // let tlo = `'./bg.jpg'`
