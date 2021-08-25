@@ -11,7 +11,8 @@ window.onload = function() {
     document.querySelector('body').style.height= '100vh';
 
     let podpis = document.querySelector('.podpis')
-    wynik == 1 ? podpis.textContent = 'Photo by Anthony Intraversato on Unsplash' : wynik == 2 ? podpis.textContent = 'Photo by Joseph Ngabo on Unsplash' : podpis.textContent = 'Dupa3';
+    // wynik == 1 ? podpis.innerHTML = 'Photo by Anthony Intraversato on Unsplash' : wynik == 2 ? podpis.textContent = 'Photo by Joseph Ngabo on Unsplash' : podpis.textContent = 'Dupa3';
+    wynik == 1 ? podpis.innerHTML = 'Photo by <a href="https://unsplash.com/@anthonyintraversato?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Anthony Intraversato</a> on <a href="https://unsplash.com/s/photos/hip-hop?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>' : wynik == 2 ? podpis.innerHTML = 'Photo by <a href="https://unsplash.com/@jngabo?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Joseph Ngabo</a> on <a href="https://unsplash.com/s/photos/hip-hop?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>' : podpis.textContent = 'dupa3';
 
   };
 //   Trzeba teraz dodać więcej tapet i style przycisku
