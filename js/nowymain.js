@@ -1,9 +1,8 @@
 window.onload = function() {
-    // let wynik = Math.floor(Math.random() * (9 - 1)) + 1;
-    let wynik = 1;
+    let wynik = Math.floor(Math.random() * (9 - 1)) + 1;
+    // let wynik = 1;
     console.log('Załaduj tapete i style nr: ' + wynik)
     let tlo = `'./zdjecia/wallpapers/screen${wynik}.jpg'`
-    // let tlo = `'./bg.jpg'`
     console.log(tlo)
     document.querySelector('body').style.background = `url(${tlo}) no-repeat center`
     document.querySelector('body').style.backgroundSize = 'cover';
