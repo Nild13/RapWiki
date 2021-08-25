@@ -13,7 +13,7 @@
       "type": "image/jpg"
     }, 
     {
-      "src": "assets/icons/96x96.jpg",
+      "src": "96x96.jpg",
       "sizes": "96x96",
       "type": "image/jpg"
     },
@@ -47,9 +47,5 @@
         "sizes": "512x512",
         "type": "image/jpg"
       }
-],
-    "related_applications": [{
-      "platform": "play",
-      "url": "https://play.google.com/store/apps/details?id=cheeaun.hackerweb"
-    }]
+]
   }
