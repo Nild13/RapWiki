@@ -1,7 +1,7 @@
 {
-    "name": "ToDoApp",
-    "short_name": "ToDoApp",
-    "start_url": "/index.html",
+    "name": "RapWiki",
+    "short_name": "RapWiki",
+    "start_url": "./index.html",
     "display": "standalone",
     "background_color": "#CECACE",
     "theme_color":"#f0f0f0",
