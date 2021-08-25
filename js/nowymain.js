@@ -1,5 +1,5 @@
 window.onload = function() {
-    let wynik = Math.floor(Math.random() * (3 - 1)) + 1;
+    let wynik = Math.floor(Math.random() * (9 - 1)) + 1;
     // let wynik = 2;
     console.log('Załaduj tapete i style nr: ' + wynik)
     let tlo = `'./zdjecia/wallpapers/screen${wynik}.jpg'`
