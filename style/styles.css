@@ -60,18 +60,6 @@ body{
     font-size: 30px;
 }
 
-.searchbtn {
-    background: #ffee0074;
-    width: 20%;
-    border: none;
-    border-radius: 5px;
-    position: relative;
-    cursor: pointer;
-    margin-left: 30px;
-}.searchbtn:hover{
-    background-color: yellow;
-}
-
 .searchbtn .fas{
 	position: absolute;
     top: 50%;
@@ -106,4 +94,92 @@ body{
         justify-content: space-between;
         border-radius: 5px;
         font-size: 12px;
+    }
+    .searchbtn1 {
+        background: #ff000074;
+        width: 20%;
+        border: none;
+        border-radius: 5px;
+        position: relative;
+        cursor: pointer;
+        margin-left: 30px;
+    }.searchbtn1:hover{
+        background-color: yellow;
+    }
+    .searchbtn2 {
+        background: #ffee0074;
+        width: 20%;
+        border: none;
+        border-radius: 5px;
+        position: relative;
+        cursor: pointer;
+        margin-left: 30px;
+    }.searchbtn2:hover{
+        background-color: yellow;
+    }
+    .searchbtn3 {
+        background: #ffee0074;
+        width: 20%;
+        border: none;
+        border-radius: 5px;
+        position: relative;
+        cursor: pointer;
+        margin-left: 30px;
+    }.searchbtn3:hover{
+        background-color: yellow;
+    }
+    .searchbtn4 {
+        background: #ffee0074;
+        width: 20%;
+        border: none;
+        border-radius: 5px;
+        position: relative;
+        cursor: pointer;
+        margin-left: 30px;
+    }.searchbtn4:hover{
+        background-color: yellow;
+    }
+    .searchbtn5 {
+        background: #ffee0074;
+        width: 20%;
+        border: none;
+        border-radius: 5px;
+        position: relative;
+        cursor: pointer;
+        margin-left: 30px;
+    }.searchbtn5:hover{
+        background-color: yellow;
+    }
+    .searchbtn6 {
+        background: #ffee0074;
+        width: 20%;
+        border: none;
+        border-radius: 5px;
+        position: relative;
+        cursor: pointer;
+        margin-left: 30px;
+    }.searchbtn6:hover{
+        background-color: yellow;
+    }
+    .searchbtn7 {
+        background: #ffee0074;
+        width: 20%;
+        border: none;
+        border-radius: 5px;
+        position: relative;
+        cursor: pointer;
+        margin-left: 30px;
+    }.searchbtn7:hover{
+        background-color: yellow;
+    }
+    .searchbtn8 {
+        background: #ffee0074;
+        width: 20%;
+        border: none;
+        border-radius: 5px;
+        position: relative;
+        cursor: pointer;
+        margin-left: 30px;
+    }.searchbtn8:hover{
+        background-color: yellow;
     }
