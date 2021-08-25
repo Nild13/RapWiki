@@ -1,6 +1,6 @@
 window.onload = function() {
-    // let wynik = Math.floor(Math.random() * (8 - 1)) + 1;
-    let wynik = 2;
+    let wynik = Math.floor(Math.random() * (3 - 1)) + 1;
+    // let wynik = 2;
     console.log('Załaduj tapete i style nr: ' + wynik)
     let tlo = `'./zdjecia/wallpapers/screen${wynik}.jpg'`
     // let tlo = `'./bg.jpg'`
@@ -9,6 +9,9 @@ window.onload = function() {
     document.querySelector('body').style.backgroundSize = 'cover';
     document.querySelector('body').style.width = '100%';
     document.querySelector('body').style.height= '100vh';
+
+    let podpis = document.querySelector('.podpis')
+    wynik == 1 ? podpis.textContent = 'Photo by Anthony Intraversato on Unsplash' : wynik == 2 ? podpis.textContent = 'Photo by Joseph Ngabo on Unsplash' : podpis.textContent = 'Dupa3';
 
   };
 //   Trzeba teraz dodać więcej tapet i style przycisku
