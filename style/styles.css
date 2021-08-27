@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Signika&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital@1&display=swap");
 
 *{
 	margin: 0;
@@ -30,7 +31,7 @@ body{
     border-radius: 5px;
 }
 .lowerWrapper{
-    font-family: 'Rock Salt', cursive;
+    font-family: 'Balsamiq Sans', cursive;
     font-size: 20px;
     color: aliceblue;
     display: inline-block;
@@ -56,7 +57,7 @@ body{
     border: none;
     border-radius: 5px;
     font-weight: bold;
-    font-family: 'Rock Salt', cursive;
+    font-family: 'Balsamiq Sans', cursive;
     letter-spacing: 1px;
     font-size: 30px;
 }
