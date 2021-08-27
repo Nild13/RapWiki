@@ -34,7 +34,7 @@ body{
     color: aliceblue;
     display: inline-block;
 	position: absolute;
-    top: 50%;
+    top: 55%;
     left: 50%;
     transform: translate(-50%, -50%);
     background: rgba(0, 0, 0,0.6);
@@ -70,7 +70,7 @@ body{
 .list-group{
     overflow: scroll; 
     overflow-x: hidden;
-    max-height: 535px;
+    max-height: 370px;
 }
     /* .list-group-item-light{
         background-color: transparent;
@@ -83,7 +83,7 @@ body{
     }
     .klasaTestowa{
         position: absolute;
-        top: 23%;
+        top: 28%;
         left: 50%;
         transform: translate(-50%, -50%);
         background: rgba(0, 0, 0,0.6);
@@ -94,6 +94,7 @@ body{
         justify-content: space-between;
         border-radius: 5px;
         font-size: 12px;
+        z-index: 2;
     }
     .searchbtn1 {
         background: #2b272774;
