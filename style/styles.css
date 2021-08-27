@@ -17,7 +17,7 @@ body{
 
 .wrapper{
 	position: absolute;
-    top: 15%;
+    top: 17%;
     left: 50%;
     transform: translate(-50%, -50%);
     background: rgba(0, 0, 0,0.6);
@@ -186,6 +186,11 @@ body{
         background-color: rgb(255, 187, 0);
     }
     .tytul{
+        position: absolute;
+        top: 4%;
+        left: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
         font-family: 'Rock Salt', cursive;
         text-align: center;
         color: white;
