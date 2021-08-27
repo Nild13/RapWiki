@@ -2,6 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Signika&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital@1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
 
 *{
 	margin: 0;
@@ -31,7 +32,7 @@ body{
     border-radius: 5px;
 }
 .lowerWrapper{
-    font-family: 'Balsamiq Sans', cursive;
+    font-family: 'Roboto', sans-serif;
     font-size: 20px;
     color: aliceblue;
     display: inline-block;
@@ -57,7 +58,7 @@ body{
     border: none;
     border-radius: 5px;
     font-weight: bold;
-    font-family: 'Balsamiq Sans', cursive;
+    font-family: 'Roboto', sans-serif;
     letter-spacing: 1px;
     font-size: 30px;
 }
