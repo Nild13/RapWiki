@@ -30,7 +30,8 @@ body{
 }
 .lowerWrapper{
     font-family: 'Roboto', sans-serif;
-    font-size: 20px;
+    font-size: 17px;
+    line-height: 23px;
     color: aliceblue;
     display: inline-block;
 	position: absolute;
@@ -38,13 +39,15 @@ body{
     left: 50%;
     transform: translate(-50%, -50%);
     background: rgba(0, 0, 0,0.6);
-    max-width: 650px;
-    width: 100%;
+    /* max-width: 650px; */
+    width: 55%;
+    max-width: 55%;
     padding: 15px;
     /* display: flex; */
     justify-content: space-between;
     border-radius: 5px;
-    margin-top: 60px;
+    margin-top: 5vh;
+    max-height: 70vh;
     
     /* height: 30%; */
 }

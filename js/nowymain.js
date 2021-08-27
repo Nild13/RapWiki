@@ -92,12 +92,13 @@ function myFunction(){
         createThirdDiv.classList = 'tekst3';
         createThirdDiv.src = fin[0].link;
         createThirdDiv.width = '620px';
-        createThirdDiv.height = '360px';
+        createThirdDiv.height = '300px';
         createThirdDiv.frameBorder = 0;
         createThirdDiv.gesture = 'media';
         createThirdDiv.allow = 'encrypted-media';
         createThirdDiv.allowFullscreen;
         createThirdDiv.style.marginTop = '30px'
+        createThirdDiv.style.marginLeft= '14vh';
         document.querySelector('.lowerWrapper').appendChild(createThirdDiv);
 
         document.querySelector('.tekst0').textContent = 'Imię i Nazwisko: ' + fin[0].realname;  
