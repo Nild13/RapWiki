@@ -205,3 +205,11 @@ body{
         top: 92%;
         left: 1%;
     }
+    .modal-content{
+        width: 800px;
+        position: absolute;
+        top: 60vh;
+        left: 50%;
+        transform:translate(-50%, -50%);
+        /* trzeba ustawic youtube zeby bylo posrodku i padding do zdjecia */
+    }
