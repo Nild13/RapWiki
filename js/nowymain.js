@@ -13,8 +13,8 @@ window.onload = function() {
     // wynik == 1 ? podpis.innerHTML = 'Photo by Anthony Intraversato on Unsplash' : wynik == 2 ? podpis.textContent = 'Photo by Joseph Ngabo on Unsplash' : podpis.textContent = 'Dupa3';
     wynik == 1 ? podpis.innerHTML = 'Photo by <a style ="color: white;" href="https://unsplash.com/@anthonyintraversato?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Anthony Intraversato</a> on <a style ="color: white;" href="https://unsplash.com/s/photos/hip-hop?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>' : wynik == 2 ? podpis.innerHTML = 'Photo by <a style ="color: white;" href="https://unsplash.com/@jngabo?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Joseph Ngabo</a> on <a style ="color: white;" href="https://unsplash.com/s/photos/hip-hop?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>' : wynik == 3 ? podpis.innerHTML ='Photo by <a style ="color: white;" href="https://unsplash.com/@rc_scout?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Richard Ciraulo</a> on <a style ="color: white;" href="https://unsplash.com/s/photos/hip-hop?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>' : wynik == 4 ? podpis.innerHTML = 'Photo by <a style ="color: white;" href="https://unsplash.com/@mariuschristensen?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Marius Christensen</a> on <a style ="color: white;" href="https://unsplash.com/s/photos/hip-hop?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>' : wynik == 5 ? podpis.innerHTML = 'Photo by <a style ="color: white;" href="https://unsplash.com/@gcowie?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Gordon Cowie</a> on <a style ="color: white;" href="https://unsplash.com/s/photos/hip-hop?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>' : wynik == 6 ? podpis.innerHTML = 'Photo by <a style ="color: white;" href="https://unsplash.com/@bwl667?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Brian Lundquist</a> on <a style ="color: white;" href="https://unsplash.com/s/photos/hip-hop?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>' : wynik == 7 ? podpis.innerHTML = 'Photo by <a style ="color: white;" href="https://unsplash.com/@benjaminlehman?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">benjamin lehman</a> on <a style ="color: white;" href="https://unsplash.com/s/photos/hip-hop?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>' : wynik == 8 ? podpis.innerHTML = 'Photo by <a style ="color: white;" href="https://unsplash.com/@photographer88?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Zika Radosavljevic</a> on <a style ="color: white;" href="https://unsplash.com/s/photos/hip-hop?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>' : podpis.innerHTML ='Brak informacji o zdjęciu w tle' ;
 
-    let kolorButtona = document.querySelector('.searchbtn')
-    wynik == 1 ? kolorButtona.classList.toggle('searchbtn1') : wynik == 2 ? kolorButtona.classList.toggle('searchbtn2') : wynik == 3 ? kolorButtona.classList.toggle('searchbtn3') : wynik == 4 ? kolorButtona.classList.toggle('searchbtn4') : wynik == 5 ? kolorButtona.classList.toggle('searchbtn5') : wynik == 6 ? kolorButtona.classList.toggle('searchbtn6') : wynik == 7 ? kolorButtona.classList.toggle('searchbtn7') : kolorButtona.classList.toggle('searchbtn8');
+    let kolorButtona = document.querySelector('.wyszukaj')
+    wynik == 1 ? kolorButtona.classList.toggle('wyszukaj1') : wynik == 2 ? kolorButtona.classList.toggle('wyszukaj2') : wynik == 3 ? kolorButtona.classList.toggle('wyszukaj3') : wynik == 4 ? kolorButtona.classList.toggle('wyszukaj4') : wynik == 5 ? kolorButtona.classList.toggle('wyszukaj5') : wynik == 6 ? kolorButtona.classList.toggle('wyszukaj6') : wynik == 7 ? kolorButtona.classList.toggle('wyszukaj7') : kolorButtona.classList.toggle('wyszukaj8');
   };
 //   Trzeba teraz dodać więcej tapet i style przycisku
 
@@ -59,11 +59,11 @@ function myFunction(){
     document.querySelector('.lowerWrapper').innerHTML = ' ';
 
     let createDiv = document.createElement('div');
-    createDiv.classList = 'divv';
+    createDiv.classList = 'avatar';
     document.querySelector('.lowerWrapper').appendChild(createDiv);
 
 
-    let imagine = document.querySelector('.divv');
+    let imagine = document.querySelector('.avatar');
     imagine.style.float = "right";
     imagine.innerHTML = fin[0].zdjecie;
     

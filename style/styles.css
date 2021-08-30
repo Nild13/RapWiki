@@ -60,7 +60,7 @@ body{
     font-size: 30px;
 }
 
-.searchbtn .fas{
+.wyszukaj .fas{
 	position: absolute;
     top: 50%;
     left: 50%;
@@ -81,7 +81,7 @@ body{
     .list-group-item-light.list-group-item-action:hover{
         cursor: pointer;
     }
-    .klasaTestowa{
+    .iloscWynikow{
         position: absolute;
         top: 23%;
         left: 50%;
@@ -95,7 +95,7 @@ body{
         border-radius: 5px;
         font-size: 12px;
     }
-    .searchbtn1 {
+    .wyszukaj1 {
         background: #2b272774;
         color: white;
         width: 20%;
@@ -104,10 +104,10 @@ body{
         position: relative;
         cursor: pointer;
         margin-left: 30px;
-    }.searchbtn1:hover{
+    }.wyszukaj1:hover{
         background-color: rgb(70, 70, 65);
     }
-    .searchbtn2 {
+    .wyszukaj2 {
         background: #8f8f8b74;
         width: 20%;
         border: none;
@@ -115,10 +115,10 @@ body{
         position: relative;
         cursor: pointer;
         margin-left: 30px;
-    }.searchbtn2:hover{
+    }.wyszukaj2:hover{
         background-color: rgb(92, 92, 89);
     }
-    .searchbtn3 {
+    .wyszukaj3 {
         background: #f3f3ed74;
         color: black;
         width: 20%;
@@ -127,10 +127,10 @@ body{
         position: relative;
         cursor: pointer;
         margin-left: 30px;
-    }.searchbtn3:hover{
+    }.wyszukaj3:hover{
         background-color: rgb(84, 84, 81);
     }
-    .searchbtn4 {
+    .wyszukaj4 {
         background: #42798f74;
         width: 20%;
         border: none;
@@ -138,10 +138,10 @@ body{
         position: relative;
         cursor: pointer;
         margin-left: 30px;
-    }.searchbtn4:hover{
+    }.wyszukaj4:hover{
         background-color: rgb(49, 137, 196);
     }
-    .searchbtn5 {
+    .wyszukaj5 {
         background: #ff000d74;
         width: 20%;
         border: none;
@@ -149,10 +149,10 @@ body{
         position: relative;
         cursor: pointer;
         margin-left: 30px;
-    }.searchbtn5:hover{
+    }.wyszukaj5:hover{
         background-color: rgb(255, 0, 0);
     }
-    .searchbtn6 {
+    .wyszukaj6 {
         background: #60a05a74;
         width: 20%;
         border: none;
@@ -160,10 +160,10 @@ body{
         position: relative;
         cursor: pointer;
         margin-left: 30px;
-    }.searchbtn6:hover{
+    }.wyszukaj6:hover{
         background-color: rgb(51, 129, 68);
     }
-    .searchbtn7 {
+    .wyszukaj7 {
         background: #00e5ff74;
         width: 20%;
         border: none;
@@ -171,10 +171,10 @@ body{
         position: relative;
         cursor: pointer;
         margin-left: 30px;
-    }.searchbtn7:hover{
+    }.wyszukaj7:hover{
         background-color: rgb(0, 217, 255);
     }
-    .searchbtn8 {
+    .wyszukaj8 {
         background: #ff910074;
         width: 20%;
         border: none;
@@ -182,7 +182,7 @@ body{
         position: relative;
         cursor: pointer;
         margin-left: 30px;
-    }.searchbtn8:hover{
+    }.wyszukaj8:hover{
         background-color: rgb(255, 187, 0);
     }
     .tytul{
