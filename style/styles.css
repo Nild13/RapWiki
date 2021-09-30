@@ -201,3 +201,15 @@ body{
         top: 92%;
         left: 1%;
     }
+
+    @media screen and (max-width:768px){
+
+        .wrapper{
+            transform: translate(-50%, -50%);
+            width: 90%;         
+            font-weight: bold;
+            font-family: 'Roboto', sans-serif;
+            font-size: 15px;
+        }
+
+    }
