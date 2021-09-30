@@ -232,5 +232,9 @@ body{
             max-width: 100px;
             border-radius: 5px;
         }
+        .list-group{
+
+            max-height: 370px;
+        }
 
     }
