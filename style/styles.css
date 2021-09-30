@@ -221,10 +221,11 @@ body{
         .divv img{
             max-height: 100px;
             max-width: 100px;
+            border-radius: 5px;
         }
         .tekst3{
-            width: 270px;
-            height: 210px;
+            width: 99%;
+            height: 25%;
         }
 
     }
