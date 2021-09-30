@@ -136,6 +136,7 @@ function myFunction(){
         test.innerHTML = item.name;
         test.dataset.key = index; //powinno dodac kolejno dataset do kazdego li
         let CreateDiv = document.createElement('div');
+        CreateDiv.classList = 'miniaturkaClass';
         CreateDiv.style.float = 'right';
         CreateDiv.innerHTML = item.zdjecie;
         test.appendChild(CreateDiv)

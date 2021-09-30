@@ -227,5 +227,10 @@ body{
             width: 99%;
             height: 25%;
         }
+        .miniaturkaClass img{
+            max-height: 100px;
+            max-width: 100px;
+            border-radius: 5px;
+        }
 
     }
