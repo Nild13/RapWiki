@@ -210,6 +210,8 @@ body{
             font-weight: bold;
             font-family: 'Roboto', sans-serif;
             font-size: 15px;
+            background: rgba(0, 0, 0,0.6);
+            color: black;
         }
 
     }
