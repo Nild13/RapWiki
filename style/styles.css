@@ -202,10 +202,6 @@ body{
         top: 92%;
         left: 1%;
     }
-    .divv{
-        width: 160px;
-        height: 160px;
-    }
 
     @media screen and (max-width:768px){
 
@@ -222,10 +218,10 @@ body{
             font-size: 14px;
             width: 80%;
         }
-        /* .divv{
-            width: 15%;
-            height: 15%;
-        } */
+        .divv img{
+            max-height: 100px;
+            max-width: 100px;
+        }
         .tekst3{
             width: 270px;
             height: 210px;
