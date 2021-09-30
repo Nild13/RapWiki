@@ -133,7 +133,8 @@ function myFunction(){
         let test = document.createElement('li');
         test.classList = 'list-group-item list-group-item-action list-group-item-light';
         test.style.fontSize = '30px'
-        test.innerHTML = item.name;
+        test.style.display = 'inline-block';
+        test.innerHTML = "<p>"+item.name+"</p>";
         test.dataset.key = index; //powinno dodac kolejno dataset do kazdego li
         let CreateDiv = document.createElement('div');
         CreateDiv.classList = 'miniaturkaClass';
