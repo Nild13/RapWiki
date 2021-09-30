@@ -143,7 +143,7 @@ function myFunction(){
         test.appendChild(CreateDiv)
         liste.appendChild(test) // dodanie stringów do wrapper
         test.addEventListener("click", (e) => {
-            const index2 = e.target.dataset.key;
+            let index2 = e.target.dataset.key;
             document.querySelector(`li[data-key="${index2}"]`)
             $('#exampleModal').modal('show');
             // tu trzeba dodać to co ma sie wyswietlać w modalu
@@ -153,7 +153,6 @@ function myFunction(){
             document.querySelector('.modal-body .dSmierci').textContent = `Data Śmierci: ${_.get(fin[index2], 'data_smierci', 'nie dotyczy')}`;
             document.querySelector('.modal-body .mUrodzenia').textContent = `Miejsce Urodzenia: ${fin[index2].miasto}`;
             let miniaturka = document.querySelector('.modal-body .miniaturka');
-            miniaturka.classList = 'miniaturkaModal';
             miniaturka.style.float = 'right';
             miniaturka.innerHTML = fin[index2].zdjecie;
 
