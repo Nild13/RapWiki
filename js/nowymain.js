@@ -153,6 +153,7 @@ function myFunction(){
             document.querySelector('.modal-body .dSmierci').textContent = `Data Śmierci: ${_.get(fin[index2], 'data_smierci', 'nie dotyczy')}`;
             document.querySelector('.modal-body .mUrodzenia').textContent = `Miejsce Urodzenia: ${fin[index2].miasto}`;
             let miniaturka = document.querySelector('.modal-body .miniaturka');
+            miniaturka.classList = 'miniaturkaModal';
             miniaturka.style.float = 'right';
             miniaturka.innerHTML = fin[index2].zdjecie;
 
@@ -161,6 +162,7 @@ function myFunction(){
 
             // dodaja sie linki z youtube zamiast podmieniac
             const youTube = document.createElement('iframe');
+            youTube.classList = 'youtubeModal';
             youTube.src = fin[index2].link;
             youTube.width = '467px';
             youTube.height = '360px';

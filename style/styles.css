@@ -239,4 +239,13 @@ body{
         .klasaTestowa{
             top: 27%;
         }
+        .miniaturkaModal img{
+            max-height: 100px;
+            max-width: 100px;
+            border-radius: 5px;
+        }
+        .youtubeModal{
+            width: 99%;
+            height: 25%;
+        }
     }
