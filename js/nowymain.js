@@ -84,9 +84,14 @@ function myFunction(){
         createFivethDiv.classList = 'tekst5';
         document.querySelector('.lowerWrapper').appendChild(createFivethDiv);
 
-        let createSixthDiv = document.createElement('div');
-        createSixthDiv.classList = 'tekst6';
-        document.querySelector('.lowerWrapper').appendChild(createSixthDiv);
+        let createFivethOneDiv = document.createElement('div');
+        createFivethOneDiv.classList = 'tekst5_1';
+        document.querySelector('.lowerWrapper').appendChild(createFivethOneDiv);
+
+        //pomysł na odpuszczenie sobie historii i skupienie sie na istotnych rzeczach
+        // let createSixthDiv = document.createElement('div');
+        // createSixthDiv.classList = 'tekst6';
+        // document.querySelector('.lowerWrapper').appendChild(createSixthDiv);
 
         let createThirdDiv = document.createElement('iframe');
         createThirdDiv.classList = 'tekst3';
@@ -104,7 +109,10 @@ function myFunction(){
         document.querySelector('.tekst').textContent = 'Pseudonim: ' + fin[0].name;    
         document.querySelector('.tekst4').textContent = 'Skąd pochodzi: ' + fin[0].miasto;
         document.querySelector('.tekst5').textContent = 'Data urodzenia: ' + fin[0].data_urodzenia;
-        document.querySelector('.tekst6').textContent = 'Fakty: ' + fin[0].historia;
+        document.querySelector('.tekst5_1').textContent = 'Data śmierci: ' + _.get(fin[0], 'data_smierci', 'nie dotyczy');
+
+        //pomysł na odpuszczenie sobie historii i skupienie sie na istotnych rzeczach
+        // document.querySelector('.tekst6').textContent = 'Fakty: ' + fin[0].historia;
         // document.querySelector('.tekst3').innerHTML = ' <iframe src="' + fin.link + '"width="420" height="315"></iframe>'
         
         
@@ -140,11 +148,15 @@ function myFunction(){
             document.querySelector('.modal-title').textContent = `${fin[index2].name}`;
             document.querySelector('.modal-body .imie').textContent = `Imię i Nazwisko: ${fin[index2].realname}`;
             document.querySelector('.modal-body .dUrodzenia').textContent = `Data Urodzenia: ${fin[index2].data_urodzenia}`;
+            document.querySelector('.modal-body .dSmierci').textContent = `Data Śmierci: ${_.get(fin[index2], 'data_smierci', 'nie dotyczy')}`;
             document.querySelector('.modal-body .mUrodzenia').textContent = `Miejsce Urodzenia: ${fin[index2].miasto}`;
             let miniaturka = document.querySelector('.modal-body .miniaturka');
             miniaturka.style.float = 'right';
             miniaturka.innerHTML = fin[index2].zdjecie;
-            document.querySelector('.modal-body .fakty').textContent = `Informacje: ${fin[index2].historia}`;
+
+            //pomysł na odpuszczenie sobie historii i skupienie sie na istotnych rzeczach
+            // document.querySelector('.modal-body .fakty').textContent = `Informacje: ${fin[index2].historia}`;
+
             // dodaja sie linki z youtube zamiast podmieniac
             const youTube = document.createElement('iframe');
             youTube.src = fin[index2].link;
