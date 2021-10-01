@@ -132,9 +132,20 @@ function myFunction(){
         console.log('Wypisuje '+ item.name);
         let test = document.createElement('li');
         test.classList = 'list-group-item list-group-item-action list-group-item-light';
-        test.style.fontSize = '30px'
-        test.style.display = 'inline-block';
-        test.innerHTML = "<p>"+item.name+"</p>";
+        test.style.fontSize = '19px'
+        // test.style.display = 'inline-block';
+        let dlugoscPseudonimu = item.name.length;
+        test.innerHTML = item.name;
+
+        // pomysl ze zmiana czcionki w zaleznosci od dlugosci pseudonimu
+
+            // if(dlugoscPseudonimu > 9){
+            //     test.style.fontSize = '19px'
+            // }
+            // else{
+            //     test.style.fontSize = '30px';
+            // }
+
         test.dataset.key = index; //powinno dodac kolejno dataset do kazdego li
         let CreateDiv = document.createElement('div');
         CreateDiv.classList = 'miniaturkaClass';
