@@ -248,12 +248,14 @@ body{
             width: 99%;
             height: 25%;
         }
-        /* Na te chwile nie mam wiecej pomysłów na udoskonalenie aplikacji :P */
+        
     }
-    @media (min-height: 225px) and (max-height: 679px){
+
+    /* zmiany pod telefon martyny, do zrobienia w przyszlosci */
+    /* @media (min-height: 225px) and (max-height: 679px){
         .list-group{
 
             max-height: 190px;
         }
 
-    }
+    } */
