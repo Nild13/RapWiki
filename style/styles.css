@@ -201,6 +201,7 @@ body{
         position: absolute;
         top: 92%;
         left: 1%;
+
     }
 
     @media screen and (max-width:768px){
@@ -247,6 +248,10 @@ body{
         .youtubeModal{
             width: 99%;
             height: 25%;
+        }
+        .copyright{
+            font-size: 10px;
+            top: 95%;
         }
         
     }
