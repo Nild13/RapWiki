@@ -79,6 +79,36 @@
 	"historia": "Znany również jako Gural, DGE, DJ Dziadzior, Giovanni, Dziadzia, Dziadzia Giovanni, Hardcorowy Papa, Osieroconych Płyt Selektor oraz Mesjasz Rapu – polski raper, producent muzyczny i przedsiębiorca. Działa na polskiej scenie hip-hopowej od 1994 roku. Współtworzył takie zespoły jak Rapscalion X, Killaz Group, Super Grupa, K.A.S.T.A., PDG Kartel, G.T.W. oraz #Bengazi",
 	"id": 8,
 	"facebook": "empty"
+}, {
+	"realname": "Łukasz Paluszek",
+	"name": "Paluch",
+	"zdjecie": "<img src='zdjecia/poznan/lukasz_paluszek_poznan.png' width='160' height='160'>",
+	"link": "https://www.youtube.com/embed/MtByQaGtQng",
+	"miasto": "Poznań",
+	"data_urodzenia": "01.10.1985",
+	"historia": "",
+	"id": 9,
+	"facebook": "empty"
+}, {
+	"realname": "Dominik Kaczmarek",
+	"name": "Kaczor",
+	"zdjecie": "<img src='zdjecia/poznan/dominik_kaczmarek_poznan.png' width='160' height='160'>",
+	"link": "https://www.youtube.com/embed/WmmP3kLLO-Q",
+	"miasto": "Poznań",
+	"data_urodzenia": "30.10.1979",
+	"historia": "",
+	"id": 10,
+	"facebook": "empty"
+}, {
+	"realname": "Patryk Śliwiński",
+	"name": "Śliwa",
+	"zdjecie": "<img src='zdjecia/poznan/patryk_sliwinski_poznan.png' width='160' height='160'>",
+	"link": "https://www.youtube.com/embed/aH9ZUoi673Q",
+	"miasto": "Poznań",
+	"data_urodzenia": "08.07.1991",
+	"historia": "",
+	"id": 11,
+	"facebook": "empty"
 }
 
 ]
