@@ -6,7 +6,7 @@
 	"link": "https://www.youtube.com/embed/RLL1ShvOdhg",
 	"miasto": "Śrem",
 	"data_urodzenia": "01.01.1991",
-	"historia": "Urodził się i umar",
+	"historia": "",
 	"id": 1,
 	"facebook": "empty"
 }, {
@@ -16,7 +16,7 @@
 	"link": "https://www.youtube.com/embed/pvztVlhGO24",
 	"miasto": "Grzymysław",
 	"data_urodzenia": "01.01.1999",
-	"historia": "Urodził się i umar",
+	"historia": "",
 	"id": 2,
 	"facebook": "empty"
 }, {
@@ -26,7 +26,7 @@
 	"link": "https://www.youtube.com/embed/5t3ag9Qu-pA",
 	"miasto": "Śrem",
 	"data_urodzenia": "01.01.1991",
-	"historia": "Urodził się i umar",
+	"historia": "",
 	"id": 3,
 	"facebook": "empty"
 }, {
@@ -36,7 +36,7 @@
 	"link": "https://www.youtube.com/embed/dnI6xOdsLp4",
 	"miasto": "Śrem",
 	"data_urodzenia": "01.01.1999",
-	"historia": "Urodził się i umar",
+	"historia": "",
 	"id": 4,
 	"facebook": "empty"
 }, {
@@ -46,7 +46,7 @@
 	"link": "https://www.youtube.com/embed/9CJl2ueNiYY",
 	"miasto": "Śrem",
 	"data_urodzenia": "01.01.1999",
-	"historia": "Urodził się i umar",
+	"historia": "",
 	"id": 5,
 	"facebook": "empty"
 }, {
@@ -108,6 +108,16 @@
 	"data_urodzenia": "08.07.1991",
 	"historia": "",
 	"id": 11,
+	"facebook": "empty"
+},{
+	"realname": "Sebastian Warzecha",
+	"name": "Shellerini",
+	"zdjecie": "<img src='zdjecia/poznan/sebastian_warzecha_poznan.png' width='160' height='160'>",
+	"link": "https://www.youtube.com/embed/xs7YU06AkiY",
+	"miasto": "Poznań",
+	"data_urodzenia": "14.03.1983",
+	"historia": "",
+	"id": 12,
 	"facebook": "empty"
 }
 
