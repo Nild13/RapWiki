@@ -214,6 +214,7 @@ body{
             font-size: 15px;
             background: rgba(0, 0, 0,0.6);
             color: black;
+            top: 19%;
         }
         .lowerWrapper{
             font-size: 14px;
@@ -237,9 +238,6 @@ body{
 
             max-height: 370px;
         }
-        .klasaTestowa{
-            top: 27%;
-        }
         .miniaturka img{
             max-height: 100px;
             max-width: 100px;
@@ -260,7 +258,7 @@ body{
         .klasaTestowa{
          padding: 5px;
          text-align: center;
-         top: 22.7%;
+         top: 25%;
          margin-top: 10px;
         }
         .tytul{
