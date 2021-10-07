@@ -198,6 +198,7 @@ body{
         text-align: center;
         color: white;
         font-size: 42px;
+
     }
     .copyright{
         position: absolute;
@@ -266,8 +267,10 @@ body{
          top: 25%;
          margin-top: 10px;
         }
-        .tytul{
-            margin-top: 6%;
+        .tytul img{
+            margin-top: 14%;
+            height: 180px;
+            width: 260px;
         }
         
     }
