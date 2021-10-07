@@ -129,6 +129,26 @@
 	"historia": "",
 	"id": 13,
 	"facebook": "empty"
+},{
+	"realname": "Adam Ostrowski",
+	"name": "O.S.T.R",
+	"zdjecie": "<img src='zdjecia/lodz/adam_ostrowski_lodz.png' width='160' height='160'>",
+	"link": "https://www.youtube.com/embed/DZOEKThKP34",
+	"miasto": "Łódź",
+	"data_urodzenia": "15.05.1980",
+	"historia": "",
+	"id": 14,
+	"facebook": "empty"
+},{
+	"realname": "Kamil Rutkowski",
+	"name": "Zeus",
+	"zdjecie": "<img src='zdjecia/lodz/kamil_rutkowski_lodz.png' width='160' height='160'>",
+	"link": "https://www.youtube.com/embed/C86Po9B8DkQ",
+	"miasto": "Łódź",
+	"data_urodzenia": "18.12.1983",
+	"historia": "",
+	"id": 15,
+	"facebook": "empty"
 }
 
 ]
