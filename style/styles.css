@@ -98,7 +98,7 @@ body{
         font-size: 12px;
     }
     .searchbtn1 {
-        background: #2b272774;
+        background: #ECB950;
         color: white;
         width: 20%;
         border: none;
@@ -107,7 +107,7 @@ body{
         cursor: pointer;
         margin-left: 30px;
     }.searchbtn1:hover{
-        background-color: rgb(70, 70, 65);
+        background-color: #f7a605;
     }
     .searchbtn2 {
         background: #8f8f8b74;
