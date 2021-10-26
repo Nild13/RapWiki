@@ -17,7 +17,7 @@ body{
 
 .wrapper{
 	position: absolute;
-    top: 17%;
+    top: 26%;
     left: 50%;
     transform: translate(-50%, -50%);
     background: rgba(0, 0, 0,0.6);
@@ -34,7 +34,7 @@ body{
     color: aliceblue;
     /* display: inline-block; */
 	position: absolute;
-    top: 50%;
+    top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
     background: rgb(0, 0, 0);
@@ -83,7 +83,7 @@ body{
     }
     .klasaTestowa{
         position: absolute;
-        top: 23%;
+        top: 35%;
         left: 50%;
         transform: translate(-50%, -50%);
         background: rgba(0, 0, 0,0.6);
@@ -188,7 +188,7 @@ body{
     }
     .tytul{
         position: absolute;
-        top: 4%;
+        top: 10%;
         left: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
